@@ -9,5 +9,13 @@
 }
 
 body {
-    background-image: url(Assets/Images/ignasi_pattern_s.png);
+    background-image: url(./Images/ignasi_pattern_s.png);
+}
+
+@media screen and (max-width: 575px){
+    
+.containter {
+    margin: auto;
+}
+
 }
