@@ -9,39 +9,5 @@
 }
 
 body {
-    background-color: #fff;
-    min-height: calc(100vh - 56px - 80px);
+    background-image: url(Assets/Images/ignasi_pattern_s.png);
 }
-
-p {
-    text-align: justify;
-    line-height: 1.5em;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    line-height: 1.5;
-}
-img {
-    float: left;
-    margin: 7px 15px 15px 15px;
-    
-}
-
-footer {
-    background:#30BBBB ;
-    text-align: center;
-    padding: 20px;
-}
-.container{
-    background-color: #eee;
-    padding: 20px;
-    width: 60%;
-    height: 550px;
-    margin: 5% 40% 10% 1%;
-}
-
-.container h1 {
-    margin: 15px;
-    font-family: 'Playfair Display', serif;
-    color:#30BBBB ;
-}
-
-
