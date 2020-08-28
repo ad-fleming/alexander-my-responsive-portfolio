@@ -1,5 +1,7 @@
 .navbar-brand {
     background:#30BBBB ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 body {
@@ -29,7 +31,7 @@ img {
 
 .container h1 {
     margin: 15px;
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     color:#30BBBB ;
 }
 
