@@ -5,11 +5,16 @@ body {
     background-image: url(./Images/ignasi_pattern_s.png);
 }
 
-footer {
+.footer-copyright {
     min-height: 10vh;
-    align-items: center;
-    justify-items: center;
     border-top: solid 5px #30BBBB ;
+    background: #6C6C6C;
+}
+
+.footer-copyright span {
+    color: #9CC1D3;
+    opacity: .5;
+    font-size: 1.5em;
 }
 
 .card-body p {
