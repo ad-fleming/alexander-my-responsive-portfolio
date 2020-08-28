@@ -1,6 +1,15 @@
 /* * {
     box-sizing: border-box;
 } */
+body {
+    background-image: url(./Images/ignasi_pattern_s.png);
+}
+
+footer {
+    min-height: 5vh;
+    align-items: center;
+    justify-items: center;
+}
 
 .navbar-brand {
     background:#30BBBB ;
@@ -8,14 +17,12 @@
     font-weight: 700;
 }
 
-body {
-    background-image: url(./Images/ignasi_pattern_s.png);
+.card-body h1 {
+    color: #30BBBB ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
-@media screen and (max-width: 575px){
-    
-.containter {
-    margin: auto;
-}
-
+#myName {
+    color: #fff;
 }
