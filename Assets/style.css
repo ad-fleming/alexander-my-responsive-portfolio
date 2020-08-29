@@ -30,7 +30,7 @@ body {
     
 }
 
-.card-body h1 {
+#contentTitle {
     color: #20B2B2 ;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
