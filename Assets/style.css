@@ -7,7 +7,7 @@ body {
 
 .footer-copyright {
     min-height: 10vh;
-    border-top: solid 5px #30BBBB ;
+    border-top: solid 5px #20B2B2 ;
     background: #6C6C6C;
 }
 
@@ -22,13 +22,16 @@ body {
 }
 
 .navbar-brand {
-    background:#30BBBB ;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    background:#20B2B2 ;
+    font-family: 'DM Serif Text', serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: 3.0px;
+    
 }
 
 .card-body h1 {
-    color: #30BBBB ;
+    color: #20B2B2 ;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
