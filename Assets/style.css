@@ -6,15 +6,23 @@ body {
     
 }
 
+
+
 .portfolioImage {
     width:100%;
 }
+
+.submitButton {
+    background:#20B2B2 ;
+}
+
 
 .footer-copyright {
     min-height: 3vh;
     max-height: 4vh;
     border-top: solid 5px #20B2B2 ;
     background: #6C6C6C;
+    margin-top: -12px;
 }
 
 .footer-copyright span {
