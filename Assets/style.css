@@ -8,7 +8,7 @@ body {
     
 }
 
-/* This ensures that the minimum */
+/* This ensures that the minimum amount height of the <main> div is 100% - (navbar height) - 2(footer height) */
 main {
     min-height: calc(100vh - 62px - 69px);
 }
@@ -26,7 +26,7 @@ main {
 
 .footer-copyright {
     border-top: solid 5px #20B2B2 ;
-    background: #6C6C6C;
+    background-color: #6C6C6C;
     padding: 20px;
 }
 
@@ -46,6 +46,7 @@ main {
     font-weight: bolder;
     font-size: 1.5em;
     letter-spacing: 3.0px;
+    color: #fff;
     
 }
 
