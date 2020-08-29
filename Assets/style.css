@@ -3,6 +3,7 @@
 } */
 body {
     background-image: url(./Images/ignasi_pattern_s.png);
+    
 }
 
 .portfolioImage {
@@ -10,7 +11,8 @@ body {
 }
 
 .footer-copyright {
-    min-height: 10vh;
+    min-height: 3vh;
+    max-height: 4vh;
     border-top: solid 5px #20B2B2 ;
     background: #6C6C6C;
 }
@@ -18,7 +20,7 @@ body {
 .footer-copyright span {
     color: #9CC1D3;
     opacity: .5;
-    font-size: 1.5em;
+    font-size:1em;
 }
 
 .card-body p {
