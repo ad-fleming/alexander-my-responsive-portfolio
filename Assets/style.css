@@ -5,6 +5,10 @@ body {
     background-image: url(./Images/ignasi_pattern_s.png);
 }
 
+.portfolioImage {
+    width:100%;
+}
+
 .footer-copyright {
     min-height: 10vh;
     border-top: solid 5px #20B2B2 ;
