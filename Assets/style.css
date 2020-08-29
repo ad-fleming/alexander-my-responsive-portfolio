@@ -6,6 +6,10 @@ body {
     
 }
 
+main {
+    min-height: calc(100vh - 62px - 140px);
+}
+
 
 
 .portfolioImage {
@@ -18,11 +22,9 @@ body {
 
 
 .footer-copyright {
-    min-height: 3vh;
-    max-height: 4vh;
     border-top: solid 5px #20B2B2 ;
     background: #6C6C6C;
-    margin-top: -12px;
+    padding: 20px;
 }
 
 .footer-copyright span {
