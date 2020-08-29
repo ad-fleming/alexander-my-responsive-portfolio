@@ -1,11 +1,14 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+    margin: 0;
+    padding: 0;
+}
 body {
     background-image: url(./Images/ignasi_pattern_s.png);
     
 }
 
+/* This ensures that the minimum */
 main {
     min-height: calc(100vh - 62px - 140px);
 }
