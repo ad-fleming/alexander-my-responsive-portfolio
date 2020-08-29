@@ -10,7 +10,7 @@ body {
 
 /* This ensures that the minimum */
 main {
-    min-height: calc(100vh - 62px - 140px);
+    min-height: calc(100vh - 62px - 69px);
 }
 
 
