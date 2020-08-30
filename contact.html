@@ -18,12 +18,18 @@
 
     </head>
     <body>
+      <!-- This is a bootstrap navbar which expands at lg (collapses at anything below that breakpoint) and has has the light theme and background -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- This the sets the "brand" class in bootstrap. It is assigned to an <a> so that it retains utility if necessary (linking back to homepage) -->
             <a class="navbar-brand ml-3" id="myName" href="#">Alexander Fleming</a>
+            <!-- This is a 'hamburger' toggle button which naturally alligns left. Because it's next to a sibling element (Navbar-brand in this case), it is automatically alligned to the far right -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Currently these links to not have the .active state. This will most likely be changed so that we can use a toggle class on and off depending on the currently loaded page
+            We are able to use the 'justify-content-end' class here because the base '.nav' component is built with flexbox. -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <!-- A list-based approach is not necessary because we are using nav-link classes, however keeping them ??allows for additional styling options?? -->
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -38,10 +44,13 @@
             </div>
           </nav>
           
+          <!-- Applied 'ml-3 so that content edge alligns with left edge of navbar-brand' -->
           <main class="ml-3">
           <br>
           <br>
           <br>
+          <!-- Additionally added ml-3 to duplicate the above ml-3 of the entire wrapping <main>. 
+            Added class of 'container' in order to use grid with the below break points -->
             <article class="container ml-3 mb-5">
               <div class="row">
                 <div class="col-11 col-sm-10 card"> 
@@ -49,8 +58,10 @@
                   <hr>
                   <div class="card-body">
                     <div class="row">
+                      <!-- signified that the column in this row is a 'form group' -->
                       <form class="col-md-10 form">
                         <div class="form-group-row">
+                          <!-- used the <label> element in order to label the input below. This is replicated throughout the form group -->
                           <label for="ControlInput1">Name</label>
                           <input type="text" class="form-control" id="formControlInput1" placeholder="First Last">
                         </div>
@@ -65,6 +76,7 @@
                       </form>                 
                     </div>
                   </div>
+                  <!-- Placed the Submit button outside of the card body to control it's margin -->
                 <div>
                   <button class="btn btn-lg btn-info rounded-0 submitButton">Submit</button>   
                 </div>
@@ -73,6 +85,8 @@
               </div>
             </article>
           </main>
+          <!-- Used class of footer-copyright after googling footer control. This has a built in styling to position the footer to bottom. I then used the the CSS calc() function to style the <main> height to be 100% of the viewport height - (height of navbar) - (height of the footer)
+            I beleive the same could be accomplished by using CSS to make your own custom footer and then placing it to an Absolute, bottom 0 position, RELATIVE to the body and then setting a min-height of 100% of the viewport to the body, in addition to adding a padding the same height as your custom footer??-->
           <footer class="footer-copyright text-center d-flex align-items-center justify-content-center">
             <div class="row">
               <div class="col-12">
