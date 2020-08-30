@@ -14,18 +14,18 @@ The [.nav](https://getbootstrap.com/docs/4.5/components/navs/) component in Boot
 
 ### __.card__
 
-We used the [.card](getbootstrap.com/docs/4.5/components/card/) component throughout this project to apply Bootstrap styling to a `<div>` with the class of `.container`.
+We used the [.card](https://getbootstrap.com/docs/4.5/components/card/) component throughout this project to apply Bootstrap styling to a `<div>` with the class of `.container`.
 
 ### __Flex__
 Bootstrap components often incorporate [Flex](https://getbootstrap.com/docs/4.5/utilities/flex/), allowing us to position content within a container using flex properties. This gives us greater control over how elements behave on a page. 
 
 ### __Grid System__
-In tandem with Flex, using a [Grid System](getbootstrap.com/docs/4.5/layout/grid/) was essential to styling the webpage's layout. This allows us to more effectively control elements on the page by assigning them into rows and columns which can be given Bootstrap classes to control their individual breakpoints.
+In tandem with Flex, using a [Grid System](https://getbootstrap.com/docs/4.5/layout/grid/) was essential to styling the webpage's layout. This allows us to more effectively control elements on the page by assigning them into rows and columns which can be given Bootstrap classes to control their individual breakpoints.
 
 
 ## __Challenges__
 
-The challenge of this project came primarily in the form of diligent reference to the Bootstrap [Documentation](getbootstrap.com/docs/4.5/getting-started/introduction/).
+The challenge of this project came primarily in the form of diligent reference to the Bootstrap [Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 
 
 The tools needed to complete this project are all readily available on the Bootstrap website, but in order to use them properly, it was important to read carefully through the documentation and make changes to your local code as necessary. 
