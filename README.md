@@ -6,6 +6,7 @@ Throughout this project, we utilized the [Bootstrap](getbootstrap.com) CSS frame
 
 While I will, in all likelihood, create a new, personalized, 'About Me' page; this project allowed me to explore different Bootstrap Components and how to utilize them. Please see below for some of the important techniques and components that were used throughout this project.
 
+
 ## __VIP Components, Utilities and Techniques__
 
 ### __.nav__
