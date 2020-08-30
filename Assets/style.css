@@ -19,6 +19,7 @@ main {
     width:100%;
 }
 
+
 .submitButton {
     background:#20B2B2 ;
 }
@@ -59,3 +60,16 @@ main {
 #myName {
     color: #fff;
 }
+
+Added Media query to control
+/* @media screen and (max-width: 476px) {
+
+    .card-body {
+        padding: 0;
+    }
+    #about-me-img {
+        width: 60%;
+        height:60%;
+    }
+
+} */
