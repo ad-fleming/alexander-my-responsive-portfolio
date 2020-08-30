@@ -55,6 +55,32 @@ While this does work, I know, after researching, that this solution my cause iss
 
 I believe the same result can be accomplished by setting a `<footer>` to be _absolutely_ position at the bottom of a page, _relative_ to the body, and then adding padding equivalent to the pixel height of the footer. I plan on trying to replicate the same result in a separate project and updating this file with the results.
 
+### ___Results from above___ 
+
+I was able to solve the above mentioned issue in a separate project. I created an html document with a `<nav>`, a `<main>` and a `<footer>`. I then set the footer to be positioned _absolutely_ to positioned to the bottom of the `<body>` which has a position of _relative_. If you then add padding-bottom equal to the height of your `<footer>` to the `<main>`, it ensures that if the content exceeds the height of the viewport, that the footer will be pushed down after the content.
+
+        main {
+    text-align: center;
+    margin: 20px 50px;
+    padding-bottom: 70px;
+    }
+
+        body {
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 20px;
+    }
+
+    footer {
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    }
+
 ## __Credits__
 
 I collaborated on this project with the help of my classmates from the Coding Boot Camp.
