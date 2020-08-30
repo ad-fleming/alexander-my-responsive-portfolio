@@ -61,6 +61,14 @@ main {
     color: #fff;
 }
 
+/* set custom sizing for About Me image, so that once there is not an available space to display at 250px,25px, it shrinks down to 60% width and sets height to be auto */
+#about-me-img {
+    max-width: 250px;
+    max-height: 250px;
+    width: 60%;
+    height: auto;
+}
+
 Added Media query to control
 /* @media screen and (max-width: 476px) {
 
